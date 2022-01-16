@@ -1,0 +1,36 @@
+#hades {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    .create-popover {
+      max-width: 1000px;
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.87);
+      h3 {
+        align-self: center;
+        justify-self: center;
+        width: 75%;
+        text-align: center;
+      }
+      label {
+        margin: 33px 0 10px;
+      }
+      .help-text {
+        margin: 10px;
+      }
+    }
+    .mobile .create-popover {
+      max-width: 400px;
+    }
+  }
+
+.info-text {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 0px;
+}
